@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  background-color: darkgreen;
+  border-bottom: 6px solid orange;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  margin: 10px;
+  color: black;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  height: 310px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  margin: 50px;
+}
+
+p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-section {
+  background-color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 6px solid orange;
+}
+
+input {
+  width: 300px;
+}
+
+input[type="submit"] {
+  width: 100px;
+}
+
+label {
+  font-size: 20px;
+}
+
+form {
+  border: 15px solid orange;
+  padding: 30px;
+  width: 450px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
